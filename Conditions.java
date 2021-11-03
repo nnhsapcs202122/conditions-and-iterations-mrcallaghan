@@ -162,7 +162,25 @@ public class Conditions
         
         
         
+        /*
+         * This is another "short circuit" example.
+         * 
+         * If the left operand is true, the right operand will not be evaluated
+         *      because the OR operation is already true.
+         * 
+         * This may result in a bug.
+         */
+        System.out.print("Enter your two favorite fruits: ");  // "kiwi banana"
+        if(s.next().equals("kiwi") || s.next().equals("kiwi"))   // chaining methods
+        {
+            System.out.println("Kiwi is one of my favorites too!");
         
+        }
+        
+        System.out.print("Enter your favorite ice cream flavor: ");
+        
+        String flavor = s.next();
+        System.out.println("Favorite ice cream flavor: " + flavor);
         
         
         
