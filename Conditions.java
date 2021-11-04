@@ -181,17 +181,51 @@ public class Conditions
         
         String flavor = s.next();
         System.out.println("Favorite ice cream flavor: " + flavor);
-        
-        
-        
-        
-        
-        
-    
+
     }
     
     
-    
+    public static void extraOperatorsExample()
+    {
+        /*
+         * augmented assignment operators: +=, -=, *=, /=,  %=
+         * 
+         * These are the same as in Python.
+         * Perform the specified mathematical operation to the variable and then assign the
+         *      resulting value to the same variable.
+         * 
+         */
+        int x = 7;
+        int y = 7;
+        int z = 7;
+        
+        x = x + 1;
+        y += 1;
+        z++;
+        
+        System.out.println("x = " + x + "; y = " + y + "; z = " + z);
+        
+        /*
+         *  post increment/decrement operators (++/--)
+         *  
+         *  These are equivalent to adding/subtracting 1 to/from the variable.
+         *  These return the value before performing the increment/decrement.
+         */
+        
+        int a = 7;
+        int b = a++;
+        
+        System.out.println("a = " + a + "; b = " + b);  // a = 8; b = 7
+        
+        /*
+         * pre increment/decrement operators (++/--)
+         * 
+         *  These return the value after performing the increment/decrement.
+         */
+        int c = 7;
+        int d = ++c;
+        System.out.println("c = " + c + "; d = " + d);  // c = 8; d = 8
+    }
     
     
     
