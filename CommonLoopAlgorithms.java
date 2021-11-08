@@ -8,7 +8,7 @@ public class CommonLoopAlgorithms
      * counts the number of words of length greater than four
      * @return the number of words of length greater than four
      */
-    public static int countMatchesForLength()
+    public static int countMatchesForLength()  //group1
     {
         return 0;
     }
@@ -19,7 +19,7 @@ public class CommonLoopAlgorithms
      * counts the number of words that start with the substring "con"
      * @return the number of words  that start with the substring "con"
      */
-    public static int countMatchesForPrefix()
+    public static int countMatchesForPrefix() //group2
     {
         return 0;
     }
@@ -30,7 +30,7 @@ public class CommonLoopAlgorithms
      * counts the number of words that end with the substring "est"
      * @return the number of words  that end with the substring "est"
      */
-    public static int countMatchesForSuffix()
+    public static int countMatchesForSuffix() //group3
     {
         return 0;
     }
@@ -41,7 +41,7 @@ public class CommonLoopAlgorithms
      * reverses the characters in the word
      * @return a new string with the characters reversed
      */
-    public static String reverseWord()
+    public static String reverseWord() //group4
     {
         return "";
     }
@@ -51,7 +51,7 @@ public class CommonLoopAlgorithms
      * reads a series of words until an adjacent duplicate word is entered
      * @return the number of unique words entered before the duplicate
      */
-    public static int compareAdjacent()
+    public static int compareAdjacent() //group5
     {
         return 0;
     }
@@ -63,7 +63,7 @@ public class CommonLoopAlgorithms
      * continues to prompt the user until the word meets the criteria
      * @return the word that meets the criteria
      */
-    public static String promptUntilMatch()
+    public static String promptUntilMatch() //group6
     {
         return "";
     }
@@ -73,7 +73,7 @@ public class CommonLoopAlgorithms
      * Write an algorithm to identify the individual digits in an integer.
      * For example, if the integer 123456 is entered by a user, print each digit on its own line.
      */
-    public static void identifyDigits(int intValue)
+    public static void identifyDigits(int intValue) //group7
     {
     }
 }
